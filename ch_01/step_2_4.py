@@ -1,12 +1,10 @@
 import json
 from pathlib import Path
-
 from step_2_1 import OUT_DIR  # 이전에 작성한 모듈을 불러옵니다.
 from step_2_2 import get_total_filesize
 from step_2_3 import load_dirnames
 
 OUT_2_4 = OUT_DIR / f"{Path(__file__).stem}.json"
-
 
 def dump_filesize_from_dirnames():
     dirs = load_dirnames()
