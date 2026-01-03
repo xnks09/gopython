@@ -1,3 +1,4 @@
+# 바 차트로 표현하는 방법
 from pathlib import Path
 
 import matplotlib.pyplot as plt
